@@ -27,7 +27,6 @@ cd 5IABI-FinalProject
 ```bash
 docker build -t 5IABI-FinalProject .
 ```
-- Remplacez `nom-de-votre-image` par le nom que vous souhaitez donner à votre image Docker.
 - Le `.` indique que le `Dockerfile` se trouve dans le répertoire courant.
 5. Exécuter le Conteneur Docker
 ```bash

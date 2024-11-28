@@ -1,0 +1,24 @@
+body {
+    background-color: yellow !important;
+}
+
+div[data-testid="stProgress"] {
+    height: 20px;
+}
+
+div.stProgress > div.stProgressBar {
+    background: linear-gradient(90deg, #FF5733, #FFC300);
+    background-size: 200% 100%;
+    animation: progress-animation 2s linear infinite;
+    border-radius: 10px;
+    height: 20px;
+}
+
+@keyframes progress-animation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -200% 0%;
+    }
+}
